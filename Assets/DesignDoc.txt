@@ -1,0 +1,83 @@
+Story Setup:
+------------------------------------------------------------------------------------------------
+-Evil Scientist from the 1950's compete for world domination through control of a subsidery race.
+
+
+Possible fractions:
+------------------------------------------------------------------------------------------------
+-Robot Overlord
+--Artistically Robotic
+--Build quickly
+--Electricty provider: Tesla Coil
+
+-Lich king
+--Old school zombies
+--Strong against units
+--Electricty provider: Normal power line tower
+
+-Dr. Frankenstein
+--Mutant creatures
+--Strong aginst buildings
+--Electricity providcer: Jacob's Ladder
+
+
+Possible Resources:
+------------------------------------------------------------------------------------------------
+-Funds
+--Regular old dollar amounts made from creating and marketing inventions
+
+-Chemical X
+--Radioactive material used for creating units.
+--i.e. Reanimating dead, creating mutants, powering robots
+
+-Metal
+--Used in building construction
+--Used for unit upgrades (mainly robots)
+
+-Carbon
+--Used for unit upgrades (mainly mutants)
+
+-VooDoo
+--Used for unit upgrades (mainly zombies)
+
+-Electricity
+--Used to spread territory
+--Used in building construction
+
+
+Design Elements:
+------------------------------------------------------------------------------------------------
+-Real Time Stratagy
+
+-Balancing Triad
+--Robots beat zombies
+--Zombies beat mutants
+--Mutants beat robots
+
+-Unit Types
+--Workers build structures and cannot attack
+--Balancing triad
+---Light units are strong against heavy units
+---Heavy units are strong against medium units
+---Medium units are strong against light units
+--Heavy units are strong against buildings
+
+-Defensive structures
+--Mutants shoot ball lightning
+--Robots shoot lasers
+--Zombies shoot random body parts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
