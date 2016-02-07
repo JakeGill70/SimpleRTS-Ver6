@@ -106,7 +106,7 @@ public class Controlls : MonoBehaviour {
             // if we are NOT placing a building
             if (Input.GetButtonDown("Fire1") && Input.mousePosition.y > h) {
                 // If we have clicked outside of the HUD
-                mouseClickPos = Input.mousePosition;
+                mouseClickPos = Input.mousePosition; // Set the position of the mouse when it is first clicked for use in unit selection
 
                 if (Physics.Raycast(ray, out hit)) {
                     GameObject go = hit.transform.gameObject;
