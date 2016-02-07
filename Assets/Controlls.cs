@@ -111,24 +111,28 @@ public class Controlls : MonoBehaviour {
                 if (Physics.Raycast(ray, out hit)) {
                     GameObject go = hit.transform.gameObject;
                     if (go.tag == "Building") {
+                        // If the object clicked on was a building, select it
                         selectedBuilding = hit.transform.gameObject;
                     }
                     else {
+                        // If the object clicked on was NOT a building, reset the selected building
                         selectedBuilding = null;
                     }
                 }
                 else {
+                    // If no object was clicked on, reset the selected building
                     selectedBuilding = null;
                 }
             }
             else if (Input.GetButton("Fire1") && Input.mousePosition.y > h) {
-                mouseHoldPos = Input.mousePosition;
+                // If we are still holding the left mouse button and are above the hud
+                mouseHoldPos = Input.mousePosition; // Set the current mouse position to the mouseHoldPos variable for use in unit selection
             }
             else if (Input.GetButtonUp("Fire1")) {
-                selectedUnits = selectUnits();
-                mouseClickPos = Vector2.zero;
-                mouseHoldPos = Vector2.zero;
-                Debug.Log("Button Up");
+                // If the left mouse button has been lifted up
+                selectedUnits = selectUnits(); // Solidify the selected units
+                mouseClickPos = Vector2.zero; // Reset the mouse positions
+                mouseHoldPos = Vector2.zero; // Reset the mouse positions
             }
         }
         #endregion NOT Placing a building
